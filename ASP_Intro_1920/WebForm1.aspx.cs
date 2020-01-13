@@ -27,5 +27,12 @@ namespace ASP_Intro_1920
             }
 
         }
+
+        protected void bt1_Click(object sender, EventArgs e)
+        {
+            string qs = "webform2.aspx";
+            qs += "?valor=" + Server.UrlEncode(TextBox1.Text);
+            Response.Redirect(qs);
+        }
     }
 }

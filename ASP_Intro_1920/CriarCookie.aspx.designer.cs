@@ -11,7 +11,7 @@ namespace ASP_Intro_1920
 {
 
 
-    public partial class WebForm1
+    public partial class CriarCookie
     {
 
         /// <summary>
@@ -24,22 +24,13 @@ namespace ASP_Intro_1920
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// divDados control.
+        /// divCookie control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl divDados;
-
-        /// <summary>
-        /// TextBox1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl divCookie;
 
         /// <summary>
         /// bt1 control.
